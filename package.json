@@ -1,0 +1,28 @@
+{
+  "name": "auto-create-swagger",
+  "version": "1.0.8",
+  "description": "根据swagger地址导出所有api接口，在本地生成api.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "swagger": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auto",
+    "swagger",
+    "auto-swagger",
+    "create-swagger",
+    "auto-create-swagger"
+  ],
+  "author": "supertangkai",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1"
+  }
+}
